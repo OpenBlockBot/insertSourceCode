@@ -1,8 +1,7 @@
 /* eslint-disable func-style */
 /* eslint-disable max-len */
 /* eslint-disable require-jsdoc */
-export default () => {
-    return `
+export default () => `
 <category name="%{BKY_INSERTSOURCECODE_CATEGORY}" id="INSERTSOURCECODE_CATEGORY" colour="#5B5B5B" secondaryColour="#3C3C3C">
     <block type="insertSourceCode_commandBlock" id="insertSourceCode_commandBlock">
         <value name="CODE">
@@ -40,4 +39,3 @@ export default () => {
         </value>
     </block>
 </category>`;
-};

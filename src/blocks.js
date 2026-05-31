@@ -5,7 +5,7 @@ export default Blockly => {
     const color = '#5B5B5B';
     const secondaryColour = '#3C3C3C';
 
-    getEscapeMenu = () => [
+    const getEscapeMenu = () => [
         [Blockly.Msg.INSERTSOURCECODE_ESCAPE, '0'],
         [Blockly.Msg.INSERTSOURCECODE_DONTESCAPE, '1']
     ];
